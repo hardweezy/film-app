@@ -19,7 +19,16 @@ class AppServiceProvider extends ServiceProvider {
    * @return void
    */
   public function boot() {
-    //
+    Image::observe(ImageObserver::class);
+    Film::observe(FilmObserver::class);
+    User::observe(UserObserver::class);
+
+    Relation::morphMap([
+      'film' => Film::class,
+    ]);
+
+    //set default pagination view
+    LengthAwarePaginator::defaultView('pagination.bootstrap-4');
   }
 
   /**
