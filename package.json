@@ -1,24 +1,29 @@
 {
-  "name": "laravel-films-codeline",
-  "version": "0.0.1",
-  "description": "test task for codeline.io",
+  "name": "film-app",
+  "version": "1.0.0",
+  "description": "A web application to show Ratings and Review of a movie",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "webpack": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lukas-pierce/laravel-films.dev.git"
+    "url": "git+https://github.com/hardweezy/film-app.git"
   },
   "keywords": [
     "laravel",
-    "codeline"
+    "vue",
+    "REST"
   ],
-  "author": "Lukas Pierce",
+  "author": "Solomon Omokehinde",
+  "license": "GPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/lukas-pierce/laravel-films.dev/issues"
+    "url": "https://github.com/hardweezy/film-app/issues"
   },
-  "homepage": "https://github.com/lukas-pierce/laravel-films.dev#readme",
+  "homepage": "https://github.com/hardweezy/film-app#readme",
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
