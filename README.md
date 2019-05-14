@@ -1,12 +1,3 @@
-# FilmsAps
-A Ratings and Reviews for Movies application.
-
-# Tech Stack
-Laravel
-VueJs
-PHP
-
-
 <div align="center">
 FilmsApp
 </div>
@@ -19,6 +10,13 @@ FilmsApp
 
 ## About
 A Ratings and Reviews for Movies application, it is heavily dependent on an external API (private at the moment). 
+
+
+## Tech Stack
+1. Laravel
+2. VueJs
+3. PHP
+
 ## Setup
 
 ```shell
